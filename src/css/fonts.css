@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Raugi';
+    src: url('../fonts/Raugi-Regular.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'BoardMarker';
+  src: url('../fonts/BoardMarker.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Under Hiport';
+  src: url('../fonts/Under\ Hiport.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Louis George Cafe';
+  src: url('../fonts/Louis\ George\ Cafe.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Louis George Cafe Bold';
+  src: url('../fonts/Louis\ George\ Cafe\ Bold.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Louis George Cafe Light';
+  src: url('../fonts/Louis\ George\ Cafe\ Light.woff2') format('woff2');
+}

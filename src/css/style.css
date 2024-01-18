@@ -1,0 +1,491 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+   overflow-x: hidden;
+   background-color: #101011;
+}
+
+.splashScreen {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 11;
+}
+.splashScreen h1 {
+    font-family: 'Under Hiport';
+    color: #141417;
+    letter-spacing: 4px;
+    font-size: 24px;
+}
+.intro1cntnr h1{
+    font-family: 'Under Hiport';
+    color: white;
+    letter-spacing: 4px;
+    font-size: 24px;
+}
+.splashScreen .logo-container {
+    width: 184px;
+    border-radius: 20px;
+    aspect-ratio: 2/0;
+    z-index: 15;
+    background: url('../../public/images/spid-gCard2.png') center center/ cover;
+    box-shadow: 8px 8px 8px 0px rgba(0,0,0,0.16);
+    position: absolute;
+}
+.splashScreen .logoPart1 {
+    width: 208px;
+    height: 0;
+    transform: translate(-100px, -100px);
+    background: url('../../public/images/sipdgcard-part1.png') center center/ cover;
+    position: absolute;
+    z-index: 20;
+}
+.splashScreen .logoPart2 {
+    width: 256px;
+    height: 0;
+    transform: translate(64px, -94px);
+    background: url('../../public/images/sipdgcard-part2.png') center center/ cover;
+    position: absolute;
+    z-index: 18;
+}
+.splashScreen .logoPart3 {
+    width: 130px;
+    height: 0;
+    transform: translate(-112px, 105px);
+    background: url('../../public/images/sipdgcard-part3.png') center center/ cover;
+    position: absolute;
+    z-index: 18;
+}
+.splashScreen .logoPart4 {
+    width: 208px;
+    height: 0;
+    transform: translate(70px, 80px);
+    background: url('../../public/images/sipdgcard-part4.png') center center/ cover;
+    position: absolute;
+    z-index: 19;
+}
+.splashScreen .cover {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    opacity: 0;
+    position: absolute;
+    z-index: 30;
+}
+
+div.banner .intro1cntnr, .intro2cntnr {
+	width: 100%;
+	height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.anihelper.vh100 {
+    width: 100%;
+	height: 100vh;
+}
+div.banner .logo-container {
+    width: 184px;
+    border-radius: 20px;
+    aspect-ratio: 2/3;
+    background: url('../../public/images/spid-gCard2.png') center center/ cover;
+    position: absolute;
+    z-index: 1;
+}
+div.banner .logoPart1 {
+    width: 208px;
+    height: 264px;
+    transform: translate(-100px, -100px);
+    background: url('../../public/images/sipdgcard-part1.png') center center/ cover;
+    position: absolute;
+    z-index: 5;
+}
+div.banner .logoPart2 {
+    width: 256px;
+    height: 160px;
+    transform: translate(64px, -94px);
+    background: url('../../public/images/sipdgcard-part2.png') center center/ cover;
+    position: absolute;
+    z-index: 3;
+}
+div.banner .logoPart3 {
+    width: 130px;
+    height: 129px;
+    transform: translate(-112px, 105px);
+    background: url('../../public/images/sipdgcard-part3.png') center center/ cover;
+    position: absolute;
+    z-index: 2;
+}
+div.banner .logoPart4 {
+    width: 208px;
+    height: 240px;
+    transform: translate(70px, 80px);
+    background: url('../../public/images/sipdgcard-part4.png') center center/ cover;
+    position: absolute;
+    z-index: 4;
+}
+div.banner .mainbanner {
+    width: 100%;
+    height: 100vh;
+    background: url('../../public/images/bannerbg.png') center center/ cover;
+    z-index: 5;
+}
+div.banner .mainbanner h1 {
+    padding: 2%;
+    height: 100%;
+    width: 50%;
+    font-family: 'Under Hiport';
+    color: white;
+    font-size: 7vw;
+    opacity: 12%;
+}
+div.banner .mainbanner .stats {
+    position: absolute;
+    top: 36%;
+    right: 20%;
+    z-index: 6;
+}
+div.banner .mainbanner h2 {
+    font-family: 'Louis George Cafe Bold';
+    color: white;
+    font-size: 4vh;
+    text-align: center;
+}
+div.banner .statsnum {
+    font-family: impact;
+    font-size: 28vh;
+    text-align: center;
+    position: absolute;
+    z-index: 10;
+}
+.primaryglitch {
+    opacity: 0;
+    color: #FFC400;
+    position: absolute;
+    transform: translate(8px, 4px);
+}
+.secondaryglitch {
+    opacity: 0;
+    color: #0073FF;
+    position: absolute;
+    transform: translate(-8px, -4px);
+}
+div.banner .mainbanner p {
+    height: 50%;
+    width: 50%;
+    font-size: 3vh;
+    font-family: 'Louis George Cafe';
+    color: white;
+    position: absolute;
+    top: 24%;
+    right: 0;
+    z-index: 6;
+    padding-right: 4%;
+    text-align: justify;
+}
+
+.events-container {
+    display: flex;
+    justify-content: space-between;
+}
+.events-container .left, .events-container .right {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.events-container .img-container {
+    width: 50vw;
+    aspect-ratio: 4.2/3.4;
+    border-radius: 8px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(2px);
+    background-color: rgba(255,255,255,0.1)
+}
+.events-container img {
+    width: 48vw;
+    aspect-ratio: 4.2/3.2;
+    position: relative;
+    transform: translateY(-1vh);
+    background-position: center center;
+    background-size: cover;
+}
+.events-container .description-container {
+    margin-left: 5%;
+    margin-top: 26vh;
+    position: absolute;
+    width: 30vw;
+    left: 58vw;
+}
+.events-container .h1 {
+    margin-bottom: 8vh;
+    font-family: 'Under Hiport';
+    font-size: 40px;
+    position: absolute;
+    text-align: center;
+    top: -22vh;
+}
+.events-container p {
+    font-family: 'Louis George Cafe';
+    color: #141417;
+    text-align: justify;
+    color: white;
+}
+
+#hint-container {
+    width: 100vw;
+    position: fixed;
+    top: 8vh;
+    z-index: 100;
+    display: flex;
+    align-items: flex-start;
+    justify-content: left;
+    padding-left: 8vh;
+}
+#hint-container .hint {
+    color: white;
+    background-color: black;
+    padding: 0.5% 2% 0.5% 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#hint-container .hide-bttn {
+    background: url('../../public/images/icons8-x-100.png') center center/cover;
+    width: 1vw;
+    aspect-ratio: 1/1;
+    margin: 0 0 0 1vw;
+    cursor: pointer;
+}
+div.nav-container {
+    width: 100vw;
+    position: fixed;
+    bottom: 8vh;
+    z-index: 100;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+div.nav-container .nav {
+    padding: 2px 0 2px 0;
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: 'Louis George Cafe Bold';
+    box-shadow: 0px 4px 10px -1px rgba(0,0,0,0.25);
+    background-color: white;
+    border-radius: 25px;
+}
+div.nav-container .option {
+    padding: 10px 20px 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 8px;
+    color: #141417;
+}
+div.nav-container .option.bracket.left {
+    width: 0;
+    padding: 0 8px 0 26px;
+}
+div.nav-container .option.bracket.right {
+    width: 0;
+    padding: 0 26px 0 8px;
+}
+
+#officers-section {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#officers-section .glitch{
+    margin-top: 16vh;
+    width: 100vw;
+    height: 30vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#officers-section .officers-title {
+    font-family: 'Under Hiport';
+    text-align: center;
+    font-size: 80px;
+}
+#officers-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 70vw;
+    column-gap: 1vw;
+    row-gap: 1vw;
+}
+#officers-section  .officers-container {
+    width: 100%;
+    aspect-ratio: 1/1;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    background-position: center center;
+    background-size: cover;
+    box-shadow: -9px -160px 81px -81px rgba(0,0,0,0.75) inset;
+}
+#officers-section  .officers-picture {
+    background-color: gray;
+    width: 100%;
+    aspect-ratio: 1/1;
+    background-position: center center;
+    background-size: cover;
+    box-shadow: -9px -160px 81px -81px rgba(0,0,0,0.75) inset;
+}
+#officers-section  .officers-name {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 4vh;
+    font-size: 24px;
+    color: white;
+    font-family: 'Louis George Cafe Bold';
+    text-transform: uppercase;
+}
+
+/* officers */
+#footer-container {
+    margin-top: 25vh;
+    width: 100%;
+    height: 496px;
+    display: flex;
+    justify-content: center;
+    background: black;
+    background: url('../../public/images/footer-bg.jpg'), center top/cover;
+}
+#footer {
+    width: 90%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 4vw;
+}
+#footer .logo {
+    width: 180px;
+    aspect-ratio: 1/1;
+    background: url('../../public/images/sipd-tranparentlogo.png') center center/cover;
+}
+#footer p {
+    color: #B3B3B3;
+    font-size: 14px;
+    font-family: 'Louis George Cafe';
+}
+#footer h1 {
+    font-size: 16px;
+    font-family: 'Louis George Cafe';
+    color: #dfdfdf;
+}
+#footer .left, #footer .middle, #footer .right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 40%;
+}
+#footer .right {
+    align-items: start;
+}
+#footer #email, #footer #message {
+    background-color: #E3E3E3;
+    margin-top: 2%;
+}
+#footer #email:focus, #footer #message:focus {
+    background-color: white;
+}
+#footer .right .bottom {
+    margin-top: 2%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#social-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#social-icons .img {
+    width: 40px;
+    aspect-ratio: 1/1;
+    cursor: pointer;
+}
+input[type="submit"] {
+    background-color: #18183a;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+} 
+input[type="submit"]:hover {
+    background-color: #141417;
+}
+
+#ic-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#ic-container h1 {
+    color: white;
+    font-family: 'Louis George Cafe Bold';
+    text-transform: uppercase;
+    margin-bottom: 1vh;
+}
+#ic-container .logo-container {
+    width: 84%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+#ic-container .logo {
+    width: 25vw;
+    aspect-ratio: 1/1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+#ic-container .logo h2 {
+    color: #CED4E1;
+    font-family: 'Louis George Cafe Bold';
+    position: absolute;
+    bottom: -64px;
+}

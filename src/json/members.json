@@ -1,0 +1,108 @@
+{
+    "members": {
+        "off1": {
+            "name": "charles torres",
+            "background1": "cha1.png",
+            "background2": "cha2.png"
+        },
+        "off2": {
+            "name": "dave lacson",
+            "background1": "dav1.png",
+            "background2": "dav2.png"
+        },
+        "off3": {
+            "name": "Davechester Gealolo",
+            "background1": "dave1.png",
+            "background2": "dave2.png"
+        },
+        "off4": {
+            "name": "EJ",
+            "background1": "ej1.png",
+            "background2": "ej2.png"
+        },
+        "off5": {
+            "name": "FJ Buenaflor",
+            "background1": "fj1.png",
+            "background2": "fj2.png"
+        },
+        "off6": {
+            "name": "Gabriel Malanday",
+            "background1": "gab1.png",
+            "background2": "gab2.png"
+        },
+        "off7": {
+            "name": "Jann Poblador",
+            "background1": "jan1.png",
+            "background2": "jan2.png"
+        },
+        "off8": {
+            "name": "Jerryl Perez",
+            "background1": "jer1.png",
+            "background2": "jer2.png"
+        },
+        "off9": {
+            "name": "Jex Barsana",
+            "background1": "jex1.png",
+            "background2": "jex2.png"
+        },
+        "off10": {
+            "name": "Julian Martir",
+            "background1": "jul1.png",
+            "background2": "jul2.png"
+        },
+        "sipd": {
+            "background1": "sipdgcard-part4.png",
+            "background2": "sipd-logo.jpg"
+        },
+        "off11": {
+            "name": "Juneco Mirande",
+            "background1": "jun1.png",
+            "background2": "jun2.png"
+        },
+        "off12": {
+            "name": "Kevin tolentino",
+            "background1": "kev1.png",
+            "background2": "kev2.png"
+        },
+        "off13": {
+            "name": "koykoy lamprea",
+            "background1": "koy1.png",
+            "background2": "koy2.png"
+        },
+        "off14": {
+            "name": "lenuel betita",
+            "background1": "len1.png",
+            "background2": "len2.png"
+        },
+        "off15": {
+            "name": "Menchie Egan",
+            "background1": "men1.png",
+            "background2": "men2.png"
+        },
+        "off16": {
+            "name": "michael diopenes",
+            "background1": "mic1.png",
+            "background2": "mic2.png"
+        },
+        "off17": {
+            "name": "nicole menez",
+            "background1": "nic1.png",
+            "background2": "nic2.png"
+        },
+        "off18": {
+            "name": "rafael Villa",
+            "background1": "raf1.png",
+            "background2": "raf2.png"
+        },
+        "off19": {
+            "name": "ralf martinez",
+            "background1": "ralf1.png",
+            "background2": "ralf2.png"
+        },
+        "off20": {
+            "name": "vincent manalo",
+            "background1": "vin1.png",
+            "background2": "vin2.png"
+        }
+    }
+}
